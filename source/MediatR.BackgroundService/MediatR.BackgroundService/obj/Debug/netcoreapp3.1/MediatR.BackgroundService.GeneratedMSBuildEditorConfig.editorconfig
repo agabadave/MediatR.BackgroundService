@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MediatR.BackgroundService
+build_property.ProjectDir = E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\

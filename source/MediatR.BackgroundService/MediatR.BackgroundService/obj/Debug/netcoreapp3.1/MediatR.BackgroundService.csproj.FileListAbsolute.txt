@@ -1,0 +1,10 @@
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Debug\netcoreapp3.1\MediatR.BackgroundService.csproj.AssemblyReference.cache
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Debug\netcoreapp3.1\MediatR.BackgroundService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Debug\netcoreapp3.1\MediatR.BackgroundService.AssemblyInfoInputs.cache
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Debug\netcoreapp3.1\MediatR.BackgroundService.AssemblyInfo.cs
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Debug\netcoreapp3.1\MediatR.BackgroundService.csproj.CoreCompileInputs.cache
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\bin\Debug\netcoreapp3.1\MediatR.BackgroundService.deps.json
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\bin\Debug\netcoreapp3.1\MediatR.BackgroundService.dll
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\bin\Debug\netcoreapp3.1\MediatR.BackgroundService.pdb
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Debug\netcoreapp3.1\MediatR.BackgroundService.dll
+E:\Work\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Debug\netcoreapp3.1\MediatR.BackgroundService.pdb
