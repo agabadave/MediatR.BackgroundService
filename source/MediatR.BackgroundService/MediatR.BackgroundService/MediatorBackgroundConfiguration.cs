@@ -6,7 +6,7 @@ namespace MediatR.BackgroundService
 {
     public static class MediatorBackgroundConfiguration
     {
-        public static IServiceCollection ConfigureBackgroundServices(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection ConfigureBackgroundServices(this IServiceCollection services)
         {
 
             services.AddHostedService<QueueHostedService>();

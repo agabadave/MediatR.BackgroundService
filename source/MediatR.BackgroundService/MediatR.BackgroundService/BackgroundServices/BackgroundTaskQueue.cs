@@ -14,9 +14,9 @@ namespace MediatR.BackgroundService.BackgroundServices
         private readonly Channel<Func<CancellationToken, ValueTask>> _queue;
         private readonly ILogger<BackgroundTaskQueue> _logger;
 
-        public BackgroundTaskQueue(IConfiguration configuration, ILogger<BackgroundTaskQueue> logger)
+        public BackgroundTaskQueue(ILogger<BackgroundTaskQueue> logger)
         {
-            var queueCapacity = configuration.GetValue<int>("BackgroundTaskQueueCapcity", 10);
+            var queueCapacity = 10; //refer to docs on setting the capacity
             var options = new BoundedChannelOptions(queueCapacity)
             {
                 FullMode = BoundedChannelFullMode.Wait

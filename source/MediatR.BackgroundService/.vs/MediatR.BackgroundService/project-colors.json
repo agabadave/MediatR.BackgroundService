@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3d926696-5e3f-4fc9-9dcc-94cb5b775814": {
+      "ProjectGuid": "3d926696-5e3f-4fc9-9dcc-94cb5b775814",
+      "DisplayName": "MediatR.BackgroundService",
+      "ColorIndex": 0
+    },
+    "2edbed49-69c8-4397-a670-a0acc1d2f0ab": {
+      "ProjectGuid": "2edbed49-69c8-4397-a670-a0acc1d2f0ab",
+      "DisplayName": "MediatR.BackgroundService.SampleApi",
+      "ColorIndex": 1
+    },
+    "6c9ededf-ec3c-4a1f-b8bb-5af2b8906d4a": {
+      "ProjectGuid": "6c9ededf-ec3c-4a1f-b8bb-5af2b8906d4a",
+      "DisplayName": "MediatR.BackgroundService.SampleApi",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
