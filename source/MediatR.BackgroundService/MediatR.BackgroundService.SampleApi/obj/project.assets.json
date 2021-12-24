@@ -1295,11 +1295,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService.SampleApi\\MediatR.BackgroundService.SampleApi.csproj",
+      "projectUniqueName": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService.SampleApi\\MediatR.BackgroundService.SampleApi.csproj",
       "projectName": "MediatR.BackgroundService.SampleApi",
-      "projectPath": "E:\\Work\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService.SampleApi\\MediatR.BackgroundService.SampleApi.csproj",
+      "projectPath": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService.SampleApi\\MediatR.BackgroundService.SampleApi.csproj",
       "packagesPath": "C:\\Users\\agaba\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService.SampleApi\\obj\\",
+      "outputPath": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService.SampleApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\agaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1317,8 +1317,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Work\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj": {
-              "projectPath": "E:\\Work\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj"
+            "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj": {
+              "projectPath": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj"
             }
           }
         }
@@ -1364,7 +1364,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

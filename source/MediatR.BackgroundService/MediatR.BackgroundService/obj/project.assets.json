@@ -1052,11 +1052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj",
+      "projectUniqueName": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj",
       "projectName": "MediatR.BackgroundService",
-      "projectPath": "E:\\Work\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj",
+      "projectPath": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj",
       "packagesPath": "C:\\Users\\agaba\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\obj\\",
+      "outputPath": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\agaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1122,7 +1122,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
