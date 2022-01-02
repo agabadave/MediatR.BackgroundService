@@ -17,9 +17,9 @@ jobs:
             3.1.x
             6.0.x
       - name: Install dependencies
-        run: dotnet restore --source src/MediatR.BackgroundService/MediatR.BackgroundService.sln
+        run: dotnet restore src/MediatR.BackgroundService/MediatR.BackgroundService.sln
       - name: Build
-        run: dotnet build --configuration Release --no-restore --source src/MediatR.BackgroundService/MediatR.BackgroundService.sln
+        run: dotnet build src/MediatR.BackgroundService/MediatR.BackgroundService.sln --configuration Release --no-restore
       - name: Publish
         uses: rohith/publish-nuget@v2
         with:
