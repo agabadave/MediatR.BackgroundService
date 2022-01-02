@@ -1,9 +1,0 @@
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\bin\Release\netcoreapp3.1\MediatR.BackgroundService.deps.json
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\bin\Release\netcoreapp3.1\MediatR.BackgroundService.dll
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\bin\Release\netcoreapp3.1\MediatR.BackgroundService.pdb
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Release\netcoreapp3.1\MediatR.BackgroundService.GeneratedMSBuildEditorConfig.editorconfig
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Release\netcoreapp3.1\MediatR.BackgroundService.AssemblyInfoInputs.cache
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Release\netcoreapp3.1\MediatR.BackgroundService.AssemblyInfo.cs
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Release\netcoreapp3.1\MediatR.BackgroundService.csproj.CoreCompileInputs.cache
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Release\netcoreapp3.1\MediatR.BackgroundService.dll
-D:\Personnal\Projects\PersonalProjects\Learnt\MediatR.BackgroundService\source\MediatR.BackgroundService\MediatR.BackgroundService\obj\Release\netcoreapp3.1\MediatR.BackgroundService.pdb
