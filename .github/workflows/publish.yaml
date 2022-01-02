@@ -22,13 +22,8 @@ jobs:
       - name: Build
         run: dotnet build src/MediatR.BackgroundService/MediatR.BackgroundService.sln --configuration Release --no-restore
       - name: Package
-        run: dotnet pack src/MediatR.BackgroundService/MediatR.BackgroundService/MediatR.BackgroundService.csproj
+        run: dotnet pack src/MediatR.BackgroundService/MediatR.BackgroundService/MediatR.BackgroundService.csproj --configuration Release
       - name: Publish
         run: dotnet nuget push src/MediatR.BackgroundService/MediatR.BackgroundService/bin/Release/netcoreapp3.1/*.nupkg --api-key $NUGET_AUTH_TOKEN --source https://api.nuget.org/v3/index.json
         env:
           NUGET_AUTH_TOKEN: ${{secrets.NUGET_API_KEY}}
-      # - name: Publish
-      #   uses: rohith/publish-nuget@v2
-      #   with:
-      #     PROJECT_FILE_PATH: src/MediatR.BackgroundService/MediatR.BackgroundService/MediatR.BackgroundService.csproj
-      #     NUGET_KEY: ${{secrets.NUGET_API_KEY}}
