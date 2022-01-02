@@ -1050,7 +1050,7 @@
     "C:\\Users\\agaba\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.0-alpha01",
     "restore": {
       "projectUniqueName": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService\\MediatR.BackgroundService.csproj",
       "projectName": "MediatR.BackgroundService",

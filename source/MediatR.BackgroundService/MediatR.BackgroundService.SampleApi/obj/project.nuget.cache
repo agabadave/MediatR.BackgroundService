@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FTBa5Jy48JQVMIT+ocYR+QDgQE24W3klRv8f94XSdchTFVIK/DzyMD69FisSa53tPyffgoUqeTStlxd1x8JV5Q==",
+  "dgSpecHash": "jpzAU+EvifXdwW0FMe4N4zmOIQvZ2J5D37SHU6UXch3+01GWvTgHB3/fwlL/3HWW5LkknTyc8uj9bXAtQyP0Xw==",
   "success": true,
   "projectFilePath": "D:\\Personnal\\Projects\\PersonalProjects\\Learnt\\MediatR.BackgroundService\\source\\MediatR.BackgroundService\\MediatR.BackgroundService.SampleApi\\MediatR.BackgroundService.SampleApi.csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SVAGoB5Og0qp6bcoDi1iOTEkvYX3WNRNcrXEHhzm2pw=",
+  "Source": "MediatR.BackgroundService.SampleApi",
+  "BasePath": "_content/MediatR.BackgroundService.SampleApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -2,8 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Description>An adaptation of the Mediator Library to be executed as a background service.</Description>
+    <PackageProjectUrl>https://github.com/agabadave/MediatR.BackgroundService</PackageProjectUrl>
+    <Version>1.0.0-alpha01</Version>
+    <RepositoryUrl>https://github.com/agabadave/MediatR.BackgroundService</RepositoryUrl>
   </PropertyGroup>
-
+	
   <ItemGroup>
     <PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.22" />

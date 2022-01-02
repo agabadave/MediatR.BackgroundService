@@ -504,7 +504,7 @@
           }
         }
       },
-      "MediatR.BackgroundService/1.0.0": {
+      "MediatR.BackgroundService/1.0.0-alpha01": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1275,7 +1275,7 @@
         "version.txt"
       ]
     },
-    "MediatR.BackgroundService/1.0.0": {
+    "MediatR.BackgroundService/1.0.0-alpha01": {
       "type": "project",
       "path": "../MediatR.BackgroundService/MediatR.BackgroundService.csproj",
       "msbuildProject": "../MediatR.BackgroundService/MediatR.BackgroundService.csproj"
@@ -1284,7 +1284,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "MediatR >= 9.0.0",
-      "MediatR.BackgroundService >= 1.0.0",
+      "MediatR.BackgroundService >= 1.0.0-alpha01",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
