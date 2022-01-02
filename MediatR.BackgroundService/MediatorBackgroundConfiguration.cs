@@ -1,5 +1,4 @@
 ﻿using MediatR.BackgroundService.BackgroundServices;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace MediatR.BackgroundService

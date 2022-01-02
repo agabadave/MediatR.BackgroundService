@@ -509,7 +509,6 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "MediatR": "9.0.0",
-          "Microsoft.Extensions.Configuration": "3.1.22",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.22",
           "Microsoft.Extensions.Hosting": "3.1.22",
           "Microsoft.Extensions.Logging": "3.1.22"

@@ -45,10 +45,6 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[3.1.22, )"
-            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[3.1.22, )"
