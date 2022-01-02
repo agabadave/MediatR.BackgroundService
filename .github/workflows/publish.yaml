@@ -1,0 +1,25 @@
+name: Publish to nuget
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .Net Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.101
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+      - name: Publish
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/MediatR.BackgroundService/MediatR.BackgroundService.csproj
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
