@@ -10,13 +10,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Setup
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: | 
-            3.1.x
-            6.0.x
+            8.x.x
       - name: Restore
         run: dotnet restore src/MediatR.BackgroundService/MediatR.BackgroundService.sln
       - name: Build
