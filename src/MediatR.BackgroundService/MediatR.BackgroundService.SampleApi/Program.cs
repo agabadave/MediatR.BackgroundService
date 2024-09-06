@@ -12,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //mediatr setup
-builder.Services.AddMediatR(typeof(LongOperationHandler));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(LongOperationHandler).Assembly));
 
 //setup background services configuration
 builder.Services.ConfigureBackgroundServices();
