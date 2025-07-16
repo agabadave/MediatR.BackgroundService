@@ -11,7 +11,7 @@ namespace MediatR.BackgroundService.BackgroundServices
 {
     internal class BackgroundTaskQueue : IBackgroundTaskQueue
     {
-        private readonly Channel<Func<CancellationToken, ValueTask>> _queue;
+        private readonly Channel<Func<CancellationToken, ValueTask>> _queue = Channel.CreateUnbounded<Func<CancellationToken, ValueTask>>();
         private readonly ILogger<BackgroundTaskQueue> _logger;
 
         public BackgroundTaskQueue(ILogger<BackgroundTaskQueue> logger)
@@ -35,7 +35,7 @@ namespace MediatR.BackgroundService.BackgroundServices
             return workItem;
         }
 
-        public async ValueTask QueueBackgroundWorkItemAsync(Func<CancellationToken, ValueTask> workItem)
+        public async ValueTask Enqueue(Func<CancellationToken, ValueTask> workItem)
         {
             if (workItem == null)
             {

@@ -19,7 +19,7 @@ internal class MediatorBackground : IMediatorBackground
 
     public async ValueTask Send<TResponse>(IRequest<TResponse> request, CancellationToken cancellationToken = default)
     {
-        await _backgroundTaskQueue.QueueBackgroundWorkItemAsync(async (stoppingToken) =>
+        await _backgroundTaskQueue.Enqueue(async (stoppingToken) =>
         {
             using var scope = _serviceScopeFactory.CreateScope();
             var mediator = scope.ServiceProvider.GetService<IMediator>();
