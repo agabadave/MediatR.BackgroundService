@@ -17,9 +17,9 @@ jobs:
           dotnet-version: | 
             9.x.x
       - name: Restore
-        run: dotnet restore src/MediatR.BackgroundService/MediatR.BackgroundService.sln
+        run: dotnet restore MediatR.BackgroundService/MediatR.BackgroundService.sln
       - name: Build
-        run: dotnet build src/MediatR.BackgroundService/MediatR.BackgroundService.sln --configuration Release --no-restore
+        run: dotnet build MediatR.BackgroundService/MediatR.BackgroundService.sln --configuration Release --no-restore
       - name: Package
         run: dotnet pack src/MediatR.BackgroundService/MediatR.BackgroundService/MediatR.BackgroundService.csproj --configuration Release
       - name: Publish
