@@ -21,7 +21,7 @@ jobs:
       - name: Build
         run: dotnet build MediatR.BackgroundService.sln --configuration Release --no-restore
       - name: Package
-        run: dotnet pack src/MediatR.BackgroundService.csproj --configuration Release
+        run: dotnet pack src/MediatR.BackgroundService/MediatR.BackgroundService.csproj --configuration Release
       - name: Publish
         run: dotnet nuget push src/MediatR.BackgroundService/bin/Release/*.nupkg --api-key $NUGET_AUTH_TOKEN --source https://api.nuget.org/v3/index.json
         env:
