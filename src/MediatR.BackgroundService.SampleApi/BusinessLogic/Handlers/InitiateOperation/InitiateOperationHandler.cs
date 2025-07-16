@@ -4,9 +4,9 @@ namespace MediatR.BackgroundService.SampleApi.BusinessLogic.Handlers.InitiateOpe
 
 public class InitiateOperationHandler : IRequestHandler<InitiateOperationRequest, InitiateOperationResponse>
 {
-    private readonly IMediatorBackground _mediatorBackground;
+    private readonly IMediatRBackground _mediatorBackground;
 
-    public InitiateOperationHandler(IMediatorBackground mediatorBackground)
+    public InitiateOperationHandler(IMediatRBackground mediatorBackground)
     {
         _mediatorBackground = mediatorBackground;
     }
@@ -15,7 +15,7 @@ public class InitiateOperationHandler : IRequestHandler<InitiateOperationRequest
     {
         LongOperationRequest backgroundRequest = new("Handler");
 
-        await _mediatorBackground.Send(backgroundRequest);
+        await _mediatorBackground.Send(backgroundRequest, default);
 
         var response = new InitiateOperationResponse
         {

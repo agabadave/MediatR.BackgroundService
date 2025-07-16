@@ -9,8 +9,7 @@ public static class MediatorBackgroundConfiguration
     {
 
         services.AddHostedService<QueueHostedService>();
-        services.AddSingleton<IBackgroundTaskQueue, BackgroundTaskQueue>();
-        services.AddSingleton<IMediatorBackground, MediatorBackground>();
+        services.AddSingleton<IMediatRBackground, BackgroundTaskQueue>();
         return services;
     }
 }

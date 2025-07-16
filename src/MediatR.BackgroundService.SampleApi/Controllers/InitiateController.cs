@@ -9,10 +9,10 @@ namespace MediatR.BackgroundService.SampleApi.Controllers;
 [ApiController]
 public class InitiateController : ControllerBase
 {
-    private readonly IMediatorBackground _mediatorBackground;
+    private readonly IMediatRBackground _mediatorBackground;
     private readonly IMediator _mediator;
 
-    public InitiateController(IMediatorBackground mediatorBackground, IMediator mediator)
+    public InitiateController(IMediatRBackground mediatorBackground, IMediator mediator)
     {
         _mediatorBackground = mediatorBackground;
         _mediator = mediator;
@@ -23,7 +23,7 @@ public class InitiateController : ControllerBase
     {
         var request = new LongOperationRequest(Source: "Controller");
 
-        await _mediatorBackground.Send(request);
+        await _mediatorBackground.Send(request, default);
 
         return Accepted("Action has been initiated. Check Logs for details...");
     }

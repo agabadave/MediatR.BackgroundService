@@ -19,6 +19,13 @@ This release upgrades the MediatR.BackgroundService library and sample API to su
   - `MediatR` is now set to **v12.5.0**.
   - **Note:** MediatR has been restricted to v12.5.0 due to a licensing change in later versions. Please review the [MediatR license](https://github.com/jbogard/MediatR/blob/master/LICENSE) if you plan to upgrade further.
 
+## Implementation Details
+
+- The background queue is implemented using `System.Threading.Channels` for high-performance, thread-safe task management.
+- Tasks are enqueued via an `IBackgroundTaskQueue` and processed by a hosted service, allowing MediatR requests to be handled asynchronously in the background.
+- This design offloads long-running or resource-intensive operations from the main request pipeline, improving scalability and responsiveness.
+- The sample API demonstrates how to enqueue and process MediatR requests using this pattern.
+
 ## Migration Notes
 
 - Ensure your environment supports .NET 9.0 before upgrading.
@@ -29,7 +36,6 @@ This release upgrades the MediatR.BackgroundService library and sample API to su
 Thank you for using MediatR.BackgroundService!
 
 ---
-
 
 ## Release History
 
