@@ -50,3 +50,9 @@ Thank you for using MediatR.BackgroundService!
 - Initial release of MediatR.BackgroundService
 - Provided background queue implementation using MediatR
 - Added sample API and documentation
+
+## v3.0.1
+
+- Renamed interface `IMediatRBackground` to `IMediatorBackground` for clarity and consistency.
+- Renamed implementation and all references accordingly.
+- Updated documentation and sample code to reflect the new naming.

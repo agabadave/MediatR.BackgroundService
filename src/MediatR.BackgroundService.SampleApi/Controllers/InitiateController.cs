@@ -9,10 +9,10 @@ namespace MediatR.BackgroundService.SampleApi.Controllers;
 [ApiController]
 public class InitiateController : ControllerBase
 {
-    private readonly IMediatRBackground _mediatorBackground;
+    private readonly IMediatorBackground _mediatorBackground;
     private readonly IMediator _mediator;
 
-    public InitiateController(IMediatRBackground mediatorBackground, IMediator mediator)
+    public InitiateController(IMediatorBackground mediatorBackground, IMediator mediator)
     {
         _mediatorBackground = mediatorBackground;
         _mediator = mediator;

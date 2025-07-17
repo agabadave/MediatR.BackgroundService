@@ -8,12 +8,12 @@ namespace MediatR.BackgroundService.BackgroundServices;
 
 internal class QueueHostedService : Microsoft.Extensions.Hosting.BackgroundService
 {
-    private readonly IMediatRBackground _queue;
+    private readonly IMediatorBackground _queue;
     private readonly IServiceProvider _serviceProvider;
     private readonly ILogger<QueueHostedService> _logger;
 
     public QueueHostedService(
-        IMediatRBackground queue,
+        IMediatorBackground queue,
         IServiceProvider serviceProvider,
         ILogger<QueueHostedService> logger)
     {

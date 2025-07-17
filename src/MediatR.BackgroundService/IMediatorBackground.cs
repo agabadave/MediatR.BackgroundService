@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace MediatR.BackgroundService;
 
-public interface IMediatRBackground
+public interface IMediatorBackground
 {
     ValueTask Send<T>(T request, CancellationToken cancellationToken = default)
         where T : IRequest<Unit>;

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MediatR.BackgroundService.BackgroundServices
 {
-    internal class BackgroundTaskQueue : IMediatRBackground
+internal class BackgroundTaskQueue : IMediatorBackground
     {
         private readonly Channel<IRequest<Unit>> _queue = Channel.CreateUnbounded<IRequest<Unit>>();
         private readonly ILogger<BackgroundTaskQueue> _logger;

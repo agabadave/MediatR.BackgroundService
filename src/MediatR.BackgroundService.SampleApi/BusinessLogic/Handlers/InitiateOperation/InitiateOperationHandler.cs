@@ -2,14 +2,9 @@
 
 namespace MediatR.BackgroundService.SampleApi.BusinessLogic.Handlers.InitiateOperation;
 
-public class InitiateOperationHandler : IRequestHandler<InitiateOperationRequest, InitiateOperationResponse>
+public class InitiateOperationHandler(IMediatorBackground mediatorBackground) : IRequestHandler<InitiateOperationRequest, InitiateOperationResponse>
 {
-    private readonly IMediatRBackground _mediatorBackground;
-
-    public InitiateOperationHandler(IMediatRBackground mediatorBackground)
-    {
-        _mediatorBackground = mediatorBackground;
-    }
+    private readonly IMediatorBackground _mediatorBackground = mediatorBackground;
 
     public async Task<InitiateOperationResponse> Handle(InitiateOperationRequest request, CancellationToken cancellationToken)
     {
